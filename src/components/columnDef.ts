@@ -1,0 +1,25 @@
+export const columnDefs = (showHeaderCheckbox) => [
+    {
+      headerCheckboxSelection: showHeaderCheckbox,
+      checkboxSelection: true,
+      headerName: "",
+      pinned: "left",
+      suppressMovable: true,
+      suppressMenu: true,
+      suppressSort: true,
+      minWidth: 50,
+      maxWidth: 50,
+      resizable: false,
+      cellClass: "checkbox-column",
+      suppressColumnsToolPanel: true,
+    },
+    { field: "id", headerName: "ID" },
+    { field: "athlete", headerName: "Athlete", minWidth: 220 },
+    { field: "country", headerName: "Country", minWidth: 200 },
+    { field: "year", headerName: "Year" },
+    { field: "sport", headerName: "Sport", minWidth: 200 },
+    { field: "gold", headerName: "Gold Medals" },
+    { field: "silver", headerName: "Silver Medals" },
+    { field: "bronze", headerName: "Bronze Medals" },
+  ];
+  

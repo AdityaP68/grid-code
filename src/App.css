@@ -1,0 +1,4 @@
+.ag-theme-balham .ag-row.disabled-row {
+  pointer-events: none;
+  opacity: 0.5;
+}
